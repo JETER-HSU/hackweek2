@@ -51,21 +51,231 @@ table {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
-	/* vertical-align: baseline;
-	box-sizing: border-box; */
-}
-.banner {
-	height: 100vh;
-	background-image: url(/img/banner.png);
-	margin: 0 auto;
-	background-position: 0 0;
-	background-size: cover;
-	background-repeat: no-repeat;
-
+	vertical-align: baseline;
+	box-sizing: border-box;
 }
 h2 {
 	font-size: 64px;
 	line-height: 84px;
     font-weight: 500;
 }
+h1 {
+	font-size: 80px;
+	line-height: 106px;
+	font-weight: 900;
+}
 
+
+.mt-1 {
+	margin-top: 4px;
+}
+.mt-2 {
+	margin-top: 8px;
+}
+.mt-3 {
+	margin-top: 12px;
+}
+.mt-4 {
+	margin-top: 16px;
+}
+.mt-5 {
+	margin-top: 20px;
+}
+
+.mt-7 {
+	margin-top: 28px;
+}
+.mt-8 {
+	margin-top: 32px;
+}
+
+
+
+.mt-10 {
+	margin-top: 40px;
+}
+.mt-12 {
+	margin-top: 48px;
+}
+
+
+.mt-14 {
+	margin-top: 56px;
+}
+.mt-16 {
+	margin-top: 64px;
+}
+.mt-17 {
+	margin-top: 68px;
+}
+.mt-36 {
+	margin-top: 144px;
+}
+/* ----------以上為共用設定-------- */
+
+
+
+.container {
+	margin: 0 auto;
+	
+}
+.banner {
+	height: 100vh;
+	background-image: url(./img/banner.png);
+	margin: 0 auto;
+	background-position: 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.banner span {
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: 700;
+}
+.banner p {
+	font-weight: 24;
+	line-height: 36px;
+	font-weight: 700;
+}
+
+.banner-content {
+	margin-bottom: 308px;
+}
+.socialmedia-icon {
+	display: flex;
+}
+.socialmedia-icon li {
+	margin-right: 16px;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about span {
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: 700;
+}
+.about p {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 700;
+}
+.about ul {
+	text-align: center;
+} 
+.about img {
+	width: 384px;
+}
+.about ul li:nth-child(4) {
+	border-bottom: 1px solid black;
+	width: 384px;
+	margin: 24px auto 0px;
+}	
+.about li div {
+	border-radius: 50%;
+	background-color: #891818;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: 16px;
+}
+
+.brand {
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding-bottom: 160px;
+}
+.brand span {
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: 500;
+}
+.brand p {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.brand li {
+	text-align: center;
+}
+.brand img {
+	width: 792px;
+	height: 416px;
+}
+.brand-img-two {
+	display: flex;
+	justify-content: center;
+}
+
+.brand-img-two img {
+	width: 588px;
+	height: 416px;
+	margin-right: 24px;
+}
+
+
+.other {
+    text-align: center;
+}
+.other-two-pic,.other-three-pic {
+	display: flex;
+	justify-content: center;
+}
+.large-pic img {
+	width: 384px;
+	height: 528px;
+}
+.middle-pic img {
+	width: 588px;
+	height: 424px;
+}
+.small-pic img {
+	width: 384px;
+	height: 280px;
+}
+.other p {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.other-three-pic p , .other-two-pic p {
+	font-size: 20px;
+	line-height: 42px;
+	font-weight: 500;
+	margin-top: 16px;
+	
+}
+.other-three-pic li, .other-two-pic li {
+	margin-right: 24px;
+}
+
+.contact {
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+.contact h2 {
+	padding-top: 56px;
+}
+.contact ul {
+	padding-bottom: 64px;
+}
+.contact p {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 500;
+	margin-top: 16px;
+}
