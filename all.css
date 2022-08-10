@@ -142,7 +142,7 @@ h2 {
 }
 .banner {
 	height: 958px;
-    background-image: url(img/banner.png);
+    background-image: url(/img/banner.png);
 	background-position: center, center;
 	background-size: cover;
 	background-repeat: no-repeat;
